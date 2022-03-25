@@ -1,17 +1,3 @@
-export const bookTitles = [
-    "You Don't Know JS Yet: Getting Started",
-    "Learning JavaScript Design Patterns",
-    "An Introduction to Programming in Go",
-    "Learn to Program",
-    "Clojure for the Brave and True",
-    "Joy of Elixir",
-    "Building Skills in Object-Oriented Design",
-    "Structure and Interpretation of Computer Programs",
-]
-
-export const bookAuthors = [
-    
-]
 
 export const bookData = [
     {

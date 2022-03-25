@@ -11,11 +11,11 @@ const Freeshelf = () =>  {
                     title={book.title} 
                     author={book.author} 
                     url={book.url}
-                    shortDesc={book.shortDescription}
-                    coverUrl={book.coverImageUrl}
+                    short={book.shortDescription}
+                    image={book.coverImageUrl}
                     pub={book.publisher}
                     pubDate={book.publicationDate}
-                    detailDesc={book.detailedDescription}
+                    detail={book.detailedDescription}
                     index={book.idx}
                     />
             )}
