@@ -1,3 +1,4 @@
+import './Stylesheet.css';
 import Book from "./components/Book"
 import bookData from "./bookData"
 
@@ -16,7 +17,7 @@ const Freeshelf = () =>  {
                     pub={book.publisher}
                     pubDate={book.publicationDate}
                     detail={book.detailedDescription}
-                    index={book.idx}
+                    key={idx}
                     />
             )}
         )}

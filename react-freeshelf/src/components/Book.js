@@ -1,7 +1,6 @@
 import { useState } from 'react'
-import bookData from '../bookData'
 
-const Book = ({ title, author, image, url, short, pub, pubdate, detail,  }) => {
+const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) => {
     const [isExpanded, setExpanded] = useState(false)
     return (
         <div className="book">
@@ -15,15 +14,15 @@ const Book = ({ title, author, image, url, short, pub, pubdate, detail,  }) => {
                     Close Details
                 </button>
                 <ul>
-                    {bookData.map((book) => (
+
                     <>
                         <img src={image} alt="book cover" className="coverImage" />
                     <p>URL: <a href={url}>{url}</a></p>
                     <p>Published By: {pub || "Not available"}</p>
-                    {/* <p>{pubDate}</p> NOT WORKING*/}
+                    <p>Published Date: {pubDate || "Not available"}</p>
                     <p>Full description: {detail}</p>
+                    <p>{key}</p>
                     </>
-                    ))}
                 </ul>
             </div>
         ) : (
