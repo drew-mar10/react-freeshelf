@@ -20,7 +20,7 @@ const Book = ({ title, author, image, url, short, pub, pubdate, detail,  }) => {
                         <img src={image} alt="book cover" className="coverImage" />
                     <p>URL: <a href={url}>{url}</a></p>
                     <p>Published By: {pub || "Not available"}</p>
-                    {/* <p>{pubDate}</p> */}
+                    {/* <p>{pubDate}</p> NOT WORKING*/}
                     <p>Full description: {detail}</p>
                     </>
                     ))}
