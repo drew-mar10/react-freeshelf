@@ -36,8 +36,3 @@ const Book = ({ title, author, image, url, short, pub, pubdate, detail,  }) => {
 }
 
 export default Book
-
-// <p>URL: <a href={url}>{url}</a></p>
-// <p>Publisher: {publisher || "Not available"}</p>
-// <p>Publication date: {pubDate || "Not available"}</p>
-// <p>Full description: {long}</p>
