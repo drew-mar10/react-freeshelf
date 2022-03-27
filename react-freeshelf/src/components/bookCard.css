@@ -1,20 +1,20 @@
 div.bookCard {
 	background-color: white;
 	color: #272727;
-	padding: 20px;
+	padding: 15px;
 	border-radius: 10px;
-	border: 0px;
-	border-color: hotpink;
+	border: 1pt;
+	border-color: black;
 	border-style: solid;
 	transition: 200ms;
-    max-width: 380px;
+    max-width: 400px;
     max-height: auto;
 }
 
 div.bookCard:hover {
 	transition: 200ms;
-	border: 3px;
-	border-color: hotpink;
+	border: 3pt;
+	border-color: peachpuff;
 	border-style: solid;
 }
 
@@ -27,14 +27,16 @@ div.bookHeader {
 div.bookHeader2{
     /* width: 2.5rem; */
 	max-height: min-content;
-	background-color: gray;
+	background-color: peachpuff;
 	/* border-radius: 50%; */
-	margin: 10px;
+	margin: 10pt;
 	font-size: 20pt;
 	text-align: center;
 	/* font-weight: bold; */
-	color: white;
+	color: black;
 	justify-content: center;
+    border: 1pt solid black;
+    
 }
 
 div.shortDesc{

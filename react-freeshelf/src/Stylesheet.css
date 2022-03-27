@@ -4,7 +4,6 @@
     padding: 20px 20px 60px;
     max-width: 680px;
     margin: 0 auto;
-    border-color: black;
 }
 
 div.bookshelf{
@@ -38,6 +37,8 @@ h1{
 
 h2{
     font-family: 'Cinzel Decorative', cursive;
+    word-spacing: normal;
+    padding: 5pt;
 }
 
 .button1{
@@ -50,14 +51,15 @@ h2{
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:dimgrey;
+    color: peachpuff;
+    background-color: slategray;
     text-align:center;
     transition: all 0.2s;
 }
 
 .button1:hover{
-    color:black;
-    background-color: hotpink;
+    color: slategray;
+    background-color: peachpuff;
 }
 
 @media all and (max-width:30em){
@@ -65,4 +67,8 @@ h2{
     display:block;
     margin:0.4em auto;
     }
+}
+
+p{
+    font-size: 12pt;
 }
