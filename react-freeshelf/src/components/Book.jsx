@@ -1,14 +1,20 @@
 import { useState } from 'react';
+import "./bookCard.css";
 import bookData from '../bookData';
 
 const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) => {
     const [isExpanded, setExpanded] = useState(false)
     return (
-        <div className="book">
-            <h2><i>{title}</i></h2>
-            <h4>{author}</h4>
-            <h4>{short}</h4>
-            
+        <div className="bookCard">
+            <div className='bookHeader'>
+                <div className='bookHeader2'>
+                    <h2><i>{title}</i></h2>
+                    <h4>{author}</h4>
+                    <div className='shortDesc'>
+                        <p>"{short}"</p>
+                    </div>
+                </div>
+            </div>
             {isExpanded ? (
             <div>
                 <button a href="something" class="button1" onClick={() =>setExpanded(!isExpanded)}>

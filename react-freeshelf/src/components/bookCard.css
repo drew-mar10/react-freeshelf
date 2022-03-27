@@ -1,0 +1,43 @@
+div.bookCard {
+	background-color: white;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border: 0px;
+	border-color: hotpink;
+	border-style: solid;
+	transition: 200ms;
+    max-width: 380px;
+    max-height: auto;
+}
+
+div.bookCard:hover {
+	transition: 200ms;
+	border: 3px;
+	border-color: hotpink;
+	border-style: solid;
+}
+
+div.bookHeader {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+div.bookHeader2{
+    /* width: 2.5rem; */
+	max-height: min-content;
+	background-color: gray;
+	/* border-radius: 50%; */
+	margin: 10px;
+	font-size: 20pt;
+	text-align: center;
+	/* font-weight: bold; */
+	color: white;
+	justify-content: center;
+}
+
+div.shortDesc{
+    max-height: fit-content;
+    max-width: auto;
+}

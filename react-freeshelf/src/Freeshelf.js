@@ -1,3 +1,4 @@
+import "./components/bookCard.css";
 import './Stylesheet.css';
 import Book from "./components/Book"
 import bookData from "./bookData"
@@ -5,7 +6,7 @@ import bookData from "./bookData"
 const Freeshelf = () =>  {
     const books = bookData
     return (
-    <div className='page'>
+    <div className='bookshelf'>
         <h1>React Freeshelf</h1>
             {books.map((book, idx) => {
                 return(<Book 

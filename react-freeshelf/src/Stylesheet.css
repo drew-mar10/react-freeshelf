@@ -7,23 +7,34 @@
     border-color: black;
 }
 
+div.bookshelf{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color:slategray;
+}
+
 h1{
     font-family: 'Cinzel Decorative', cursive;
-    color: hotpink;
-    border-color: black;
+    font-size: 50pt;
+    color: peachpuff;
+    outline: auto;
+    outline-color: dimgray;
 }
 
 /* div.bookshelf{ */
     /* /~ display: flex; ~/ */
 /* } */
 
-.div.book {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
-    align-content: center;
-    border-color: black;
-}
+/* .div.book { */
+    /* /~ display: flex; ~/ */
+    /* /~ flex-wrap: wrap; ~/ */
+    /* /~ flex-direction: row; ~/ */
+    /* align-content: center; */
+    /* border-color: black; */
+/* } */
 
 h2{
     font-family: 'Cinzel Decorative', cursive;
