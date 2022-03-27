@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import bookData from '../bookData';
 
 const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) => {
     const [isExpanded, setExpanded] = useState(false)
@@ -10,7 +11,7 @@ const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) =
             
             {isExpanded ? (
             <div>
-                <button onClick={() =>setExpanded(!isExpanded)}>
+                <button a href="something" class="button1" onClick={() =>setExpanded(!isExpanded)}>
                     Close Details
                 </button>
                 <ul>
@@ -26,7 +27,7 @@ const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) =
                 </ul>
             </div>
         ) : (
-            <button onClick={() =>setExpanded(!isExpanded)}>
+            <button a href="something" class="button1" onClick={() =>setExpanded(!isExpanded)}>
                 Book Details
             </button>
         )}

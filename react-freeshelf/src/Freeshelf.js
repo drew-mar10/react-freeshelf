@@ -7,7 +7,6 @@ const Freeshelf = () =>  {
     return (
     <div className='page'>
         <h1>React Freeshelf</h1>
-        <div className='bookshelf'>
             {books.map((book, idx) => {
                 return(<Book 
                     title={book.title} 
@@ -22,7 +21,6 @@ const Freeshelf = () =>  {
                     />
             )}
         )}
-        </div>
     </div>
 )}
 
