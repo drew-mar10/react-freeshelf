@@ -1,7 +1,9 @@
+import React from 'react';
 import "./components/bookCard.css";
 import './Stylesheet.css';
-import Book from "./components/Book"
-import bookData from "./bookData"
+import Book from "./components/Book";
+import bookData from "./bookData";
+
 
 const Freeshelf = () =>  {
     const books = bookData
@@ -24,6 +26,5 @@ const Freeshelf = () =>  {
         )}
     </div>
 )}
-
 
 export default Freeshelf

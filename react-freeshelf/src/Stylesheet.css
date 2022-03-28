@@ -2,7 +2,7 @@
     font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
     padding: 20px 20px 60px;
-    max-width: 680px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -13,6 +13,7 @@ div.bookshelf{
     justify-content: center;
     height: auto;
     background-color:slategray;
+    width: auto;
 }
 
 h1{
@@ -21,54 +22,61 @@ h1{
     color: peachpuff;
     outline: auto;
     outline-color: dimgray;
+    margin-top: 15pt;
+    margin-bottom: 20pt;
+    padding-left: 3pt;
+    padding-right: 3pt;
 }
-
-/* div.bookshelf{ */
-    /* /~ display: flex; ~/ */
-/* } */
-
-/* .div.book { */
-    /* /~ display: flex; ~/ */
-    /* /~ flex-wrap: wrap; ~/ */
-    /* /~ flex-direction: row; ~/ */
-    /* align-content: center; */
-    /* border-color: black; */
-/* } */
 
 h2{
-    font-family: 'Cinzel Decorative', cursive;
-    word-spacing: normal;
+    font-family: 'Cormorant', serif;
+    font-size: 25pt;
     padding: 5pt;
+    line-height: 25pt;
 }
 
-.button1{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid #FFFFFF;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color: peachpuff;
+h4{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+p{
+    font-size: 12pt;
+    font-family: 'Glory', sans-serif;
+    font-weight: bold;
+}
+
+/* CSS */
+.button1 {
+    appearance: button;
     background-color: slategray;
-    text-align:center;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: peachpuff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 65pt;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
     transition: all 0.2s;
 }
 
 .button1:hover{
     color: slategray;
     background-color: peachpuff;
-}
-
-@media all and (max-width:30em){
-    button1{
-    display:block;
-    margin:0.4em auto;
-    }
-}
-
-p{
-    font-size: 12pt;
 }

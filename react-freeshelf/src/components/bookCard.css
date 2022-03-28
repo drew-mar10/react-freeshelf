@@ -9,6 +9,7 @@ div.bookCard {
 	transition: 200ms;
     max-width: 400px;
     max-height: auto;
+    margin-bottom: 5pt;
 }
 
 div.bookCard:hover {
@@ -42,4 +43,8 @@ div.bookHeader2{
 div.shortDesc{
     max-height: fit-content;
     max-width: auto;
+}
+
+div.bookDeets {
+	line-height: 15 pt;
 }
