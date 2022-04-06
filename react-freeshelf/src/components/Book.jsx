@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import "./bookCard.css";
 import bookData from '../bookData';
+import placeholder from "./placeholder.png"
 
 const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) => {
     const [isExpanded, setExpanded] = useState(false)
@@ -23,7 +24,7 @@ const Book = ({ title, author, image, url, short, pub, pubDate, detail, key }) =
                 <ul>
 
                     <div className='bookDeets'>
-                        <img src={image} alt="book cover" className="coverImage" />
+                        <img onError={(event) => event.target.src = `${placeholder}`} src={image} alt="book cover" className="coverImage" />
                     <p><strong>URL: <a href={url}>{url}</a></strong></p>
                     <p>Published By: {pub || "Not available"}</p>
                     <p>Published Date: {pubDate || "Not available"}</p>
