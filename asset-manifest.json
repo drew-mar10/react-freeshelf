@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-freeshelf/static/css/main.9178aa32.css",
+    "main.js": "/react-freeshelf/static/js/main.d0aa9d23.js",
+    "static/media/placeholder.png": "/react-freeshelf/static/media/placeholder.16e45c61df3a28f5d179.png",
+    "index.html": "/react-freeshelf/index.html",
+    "main.9178aa32.css.map": "/react-freeshelf/static/css/main.9178aa32.css.map",
+    "main.d0aa9d23.js.map": "/react-freeshelf/static/js/main.d0aa9d23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9178aa32.css",
+    "static/js/main.d0aa9d23.js"
+  ]
+}
