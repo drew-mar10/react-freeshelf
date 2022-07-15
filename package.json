@@ -22,8 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "next dev",
-    "lint": "next lint",
-    "deploy": "gh-pages -b main -d build"
+    "lint": "next lint"
   },
   "eslintConfig": {
     "extends": [
